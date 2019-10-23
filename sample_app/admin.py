@@ -1,0 +1,6 @@
+from django.contrib import admin
+from sample_app.models import Category
+
+# Register your models here.
+
+admin.site.register(Category)
